@@ -1,0 +1,9 @@
+.gocache
+.gomodcache
+.git
+node_modules
+.next
+coverage
+*.log
+README.md:Zone.Identifier
+

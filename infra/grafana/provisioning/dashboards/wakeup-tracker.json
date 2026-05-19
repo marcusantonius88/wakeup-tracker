@@ -1,0 +1,33 @@
+{
+  "title": "WakeUpTracker MVP",
+  "schemaVersion": 39,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Events processed",
+      "gridPos": { "h": 8, "w": 6, "x": 0, "y": 0 },
+      "targets": [{ "expr": "sum(events_processed_total)", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Wake-ups confirmed",
+      "gridPos": { "h": 8, "w": 6, "x": 6, "y": 0 },
+      "targets": [{ "expr": "sum(wakeup_confirmed_total)", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Morning intents",
+      "gridPos": { "h": 8, "w": 6, "x": 12, "y": 0 },
+      "targets": [{ "expr": "sum(morning_intent_submitted_total)", "refId": "A" }]
+    },
+    {
+      "type": "stat",
+      "title": "Device rejections",
+      "gridPos": { "h": 8, "w": 6, "x": 18, "y": 0 },
+      "targets": [{ "expr": "sum(device_rejected_total)", "refId": "A" }]
+    }
+  ],
+  "time": { "from": "now-6h", "to": "now" },
+  "refresh": "10s"
+}
+

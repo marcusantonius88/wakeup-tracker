@@ -1,3 +1,7 @@
+![WakeUp Tracker Banner](docs/banner-wakeup-tracker.png)
+
+![Go](https://img.shields.io/badge/Go-1.22-blue) ![Next.js](https://img.shields.io/badge/Next.js-React-black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791) ![Kafka](https://img.shields.io/badge/Kafka-Event%20Streaming-black) ![Redis](https://img.shields.io/badge/Redis-Cache-red) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Observability-white)
+
 # ⏰ WakeUpTracker — Event-Driven Wake-Up Accountability Platform
 
 WakeUpTracker is an event-driven platform designed to help remote workers build consistency in their morning routines and maintain accountability for waking up on time.

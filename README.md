@@ -361,3 +361,20 @@ sequenceDiagram
         DeviceValidation-->>WebApp: DeviceRejected
     end
 ```
+
+---
+
+## 🤖 AI-Assisted Development
+
+This project was built using **AI-Assisted Software Development** practices.
+
+| Category | Tool |
+| --- | --- |
+| IDE/Agent | Cursor |
+| Main Model | Codex |
+
+AI was used to support feature implementation, code generation, solution review, and acceleration of the project development process.
+
+The project does not use Spec-Driven Development (SDD) and does not include formal architecture, roadmap, or specification documents.
+
+The development remained under human supervision throughout the entire process, with the developer responsible for technical decisions, validations, and the final application result.

@@ -24,7 +24,7 @@ The platform combines:
 
 ---
 
-# 🎯 Main Goal
+## 🎯 Main Goal
 
 The objective of this project is twofold:
 
@@ -45,7 +45,7 @@ The objective of this project is twofold:
 
 ---
 
-# 🧠 Core Concept — Wake Session
+## 🧠 Core Concept — Wake Session
 
 WakeUpTracker introduces the concept of a **Wake Session**.
 
@@ -64,7 +64,7 @@ A Wake Session represents:
 
 ---
 
-# 🏗️ High-Level Architecture
+## 🏗️ High-Level Architecture
 
 ```mermaid
 flowchart TB
@@ -123,11 +123,11 @@ flowchart TB
 
 ---
 
-# MVP Implementation
+## MVP Implementation
 
 This repository now contains a working MVP scaffold with independent backend services, a desktop-only web app, and local observability infrastructure.
 
-## Services
+### Services
 
 | Service | Port | Responsibility |
 | --- | ---: | --- |
@@ -151,7 +151,7 @@ internal/adapters/outbound
 internal/infrastructure
 ```
 
-## Morning Intent Rule
+### Morning Intent Rule
 
 The Wake Session domain enforces the MVP rule directly:
 
@@ -170,7 +170,7 @@ WakeUpConfirmed | WakeUpFailed
 StreakIncreased | StreakBroken
 ```
 
-## Local Development
+### Local Development
 
 Run backend tests:
 
@@ -201,7 +201,7 @@ cd infra
 docker compose up --build
 ```
 
-## Observability
+### Observability
 
 All Go services expose:
 
@@ -212,7 +212,7 @@ GET /metrics
 
 Prometheus scrapes all services from `infra/prometheus/prometheus.yml`, and Grafana is provisioned with a WakeUpTracker dashboard.
 
-## Event Contract
+### Event Contract
 
 All domain events use:
 
@@ -231,7 +231,7 @@ The current code includes local in-memory outbound adapters so the architecture 
 
 ---
 
-# 🏗️ Architecture Principles
+## 🏗️ Architecture Principles
 
 - Event-Driven Architecture (EDA)
 - Clean Architecture
@@ -247,7 +247,7 @@ The current code includes local in-memory outbound adapters so the architecture 
 
 ---
 
-# 🏗️ Monorepo Structure
+## 🏗️ Monorepo Structure
 
 ```text
 /wakeup-tracker
@@ -283,23 +283,23 @@ The current code includes local in-memory outbound adapters so the architecture 
 
 ---
 
-# ⚙️ Tech Stack
+## ⚙️ Tech Stack
 
-## Backend
+### Backend
 
 - Golang
 - PostgreSQL
 - Redis
 - Apache Kafka
 
-## Frontend
+### Frontend
 
 - Next.js
 - React
 - TypeScript
 - TailwindCSS
 
-## Observability
+### Observability
 
 - Prometheus
 - Grafana
@@ -307,11 +307,11 @@ The current code includes local in-memory outbound adapters so the architecture 
 
 ---
 
-# 🧱 Backend Architecture Pattern
+## 🧱 Backend Architecture Pattern
 
 Every backend service follows:
 
-## Clean Architecture + Hexagonal Architecture
+### Clean Architecture + Hexagonal Architecture
 
 Required structure:
 
@@ -327,7 +327,7 @@ internal/infrastructure
 
 ---
 
-# 🧩 Wake Session Flow
+## 🧩 Wake Session Flow
 
 ```mermaid
 sequenceDiagram
@@ -364,7 +364,7 @@ sequenceDiagram
 
 ---
 
-## 🤖 AI-Assisted Development
+## 🤖 Desenvolvimento Assistido por IA
 
 This project was built using **AI-Assisted Software Development** practices.
 
@@ -372,6 +372,7 @@ This project was built using **AI-Assisted Software Development** practices.
 | --- | --- |
 | IDE/Agent | Cursor |
 | Main Model | Codex |
+| Methodology | Not used |
 
 AI was used to support feature implementation, code generation, solution review, and acceleration of the project development process.
 

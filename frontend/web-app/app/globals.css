@@ -4,11 +4,21 @@
 
 :root {
   color-scheme: light;
+  --bg: #f5f1e8;
+  --panel: rgba(255, 255, 255, 0.78);
+  --border: rgba(15, 23, 42, 0.08);
+  --text: #122033;
+  --muted: #64748b;
+  --accent: #f59e0b;
+  --accent-strong: #c2410c;
 }
 
 body {
-  background: #fbfaf6;
-  color: #17211b;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
 }
 
 button,
@@ -17,7 +27,18 @@ textarea {
   font: inherit;
 }
 
-.focus-ring {
-  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-moss focus-visible:ring-offset-2;
+::selection {
+  background: rgba(245, 158, 11, 0.2);
 }
 
+.display-font {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.35), 0 0 0 4px rgba(255, 255, 255, 1);
+}

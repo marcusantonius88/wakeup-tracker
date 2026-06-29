@@ -6,4 +6,8 @@ node_modules
 coverage
 *.log
 README.md:Zone.Identifier
-
+frontend/web-app/node_modules
+frontend/web-app/.next
+frontend/web-app/test-results
+frontend/web-app/playwright-report
+frontend/web-app/.playwright

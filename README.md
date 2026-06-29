@@ -1,6 +1,6 @@
 ![WakeUp Tracker Banner](docs/banner-wakeup-tracker.png)
 
-![Go](https://img.shields.io/badge/Go-1.22-blue) ![Next.js](https://img.shields.io/badge/Next.js-React-black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791) ![Kafka](https://img.shields.io/badge/Kafka-Event%20Streaming-black) ![Redis](https://img.shields.io/badge/Redis-Cache-red) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Observability-white)
+![Go](https://img.shields.io/badge/Go-1.22-blue?labelColor=gray) ![Next.js](https://img.shields.io/badge/Next.js-React-blue?labelColor=gray) ![Database](https://img.shields.io/badge/Database-PostgreSQL-blue?labelColor=gray) ![Event Streaming](https://img.shields.io/badge/Event%20Streaming-Kafka-blue?labelColor=gray) ![Cache](https://img.shields.io/badge/Cache-Redis-blue?labelColor=gray) ![Observability](https://img.shields.io/badge/Observability-OpenTelemetry-blue?labelColor=gray)
 
 # ⏰ WakeUpTracker — Event-Driven Wake-Up Accountability Platform
 

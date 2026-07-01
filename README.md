@@ -364,7 +364,7 @@ sequenceDiagram
 
 ---
 
-## 🤖 Desenvolvimento Assistido por IA
+## 🤖 AI-Assisted Software Development
 
 This project was built using **AI-Assisted Software Development** practices.
 
